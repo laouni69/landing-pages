@@ -1,0 +1,130 @@
+* {
+ margin:0.5;
+ padding:0;
+ }
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1bb45e;
+  padding: 40PX 10PX 30PX 10PX;
+  font-size: 1.1em;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.brand {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.spacer {
+  width: 20%;
+}
+
+section {
+  width: 50%;
+  margin-left: 3%;
+}
+
+section p {
+  color: #727272;
+  line-height: 1.75em
+}
+
+body {
+  font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+}
+
+h1 .anchor{
+  font-size: 4.5rem;
+  color: black;
+  margin:0 auto;
+  font-weight: bold;
+  position: relative;
+
+
+}
+
+.content {
+display: block;
+margin: 0 auto; 
+height : 49px;
+width : 900px; 
+}
+
+
+.spacer {
+  width: 40%;
+}
+
+section {
+  width: 50%;
+  margin-left: 13%;
+}
+
+section p {
+  color: #727272;
+  line-height: 1.75em
+}
+
+.try-now-btn {
+  display: inline-block;
+  padding: 1em 2em 1em 2em;
+  border-radius: 2em;
+  background-color: #1bb45e;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: 50%
+}
+
+.container {
+  display: flex;
+  margin-top: 0%;
+}
+
+.item-btn {
+  background-color: #1bb45e;
+  padding: 15px;
+  border-radius: 90px;
+  margin-top: -15px;
+}
+
+.item :hover {
+  background-color: #b8b8b8;
+  color: white;
+}
+
+.brand {
+  width: 30%;
+}
+
+.youtube {
+display: block;
+margin-left:0px;
+
+}
+.table {
+margin-left:0px;
+}
+.titre {
+text-align: center;
+font-size: 3.425rem;
+font-family:"League Spartan";
+line-height: 1.2em;
+margin: 0;
+    padding: 0;
+    position: relative;
+font-weight: bold;
+min-width: 1120px;
+}
